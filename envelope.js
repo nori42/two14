@@ -16,9 +16,7 @@ function toggleEnvelope() {
 
   heartsRow.forEach((element) => element.classList.toggle("animated"));
 }
-
-// This should be the latest
-if (window.innerWidth > 375) {
+if (window.innerWidth > 470) {
   document.querySelector("body").innerHTML =
     "<h1>Only Available in mobile phone</h1>";
 }
